@@ -20,7 +20,7 @@ todas las lineas de codigo que quiero que el programa haga no se cumple la condi
 const edad =  parseInt(prompt("ingresa tu edad"));
 console.log(edad)
 //si la edad esta entre 0 y 110 años
-if(edad > 0 && edad <=110){
+if(edad > 0 && edad <=10){
     if (edad >= 18) {
     alert("sos mayor de edad");
 } else {

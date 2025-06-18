@@ -4,6 +4,12 @@ let edad;
 
 while (true) {
   edad = parseInt(prompt("Ingrese su edad"));
+  if (isNaN(edad)) {
+    alert("Introduce un número válido.");
+    continue; 
+  }
+
+  edad = parseInt(edad);
 
   if (!isNaN(edad) && edad >= 18) {
     alert("Ya puede conducir.");

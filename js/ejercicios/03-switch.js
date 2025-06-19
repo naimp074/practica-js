@@ -18,6 +18,9 @@ case n:
         todas las lineas que quiero ejecutar si no se cumplio ningun caso anterior
 }
 */
+
+
+do{
 const opcion = prompt(
   "Seleccione una opcion: 1- Consultar saldo, 2- Ingresar dinero, 3- Extraer dinero"
 );
@@ -60,3 +63,10 @@ switch (opcion) {
   default:
     alert("Ingresaste una opcion erronea");
 }
+
+}while(confirm(`¿queres realizar otra operacion?`))
+
+  console.log(saldo)
+  console.log(opcion)
+
+
